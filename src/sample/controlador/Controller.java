@@ -33,7 +33,7 @@ public class Controller {
             limpiarCampos();
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
             alert.setTitle("Informacion");
-            alert.setHeaderText("Persona  No Encontrada Con el Nombre "+"\""+txtBuscar.getText()+"\""+" No Fue Encontrada");
+            alert.setHeaderText("Persona  Con el Nombre "+"\""+txtBuscar.getText()+"\""+" No Fue Encontrada");
 
             alert.showAndWait();
 
